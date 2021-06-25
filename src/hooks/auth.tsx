@@ -4,16 +4,11 @@ from "react";
 import * as AuthSession from 'expo-auth-session';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const REDIRECT_URI = process.env.REDIRECT_URI;
-const SCOPE = process.env.SCOPE;
-const RESPONSE_TYPE = process.env.RESPONSE_TYPE;
-const CLIENT_ID = process.env.CLIENT_ID;
-const CDN_IMAGE = process.env.CDN_IMAGE;
-// const { REDIRECT_URI } = process.env;
-// const { SCOPE } = process.env;
-// const { RESPONSE_TYPE } = process.env;
-// const { CLIENT_ID } = process.env;
-// const { CDN_IMAGE } = process.env;
+const { REDIRECT_URI } = process.env;
+const { SCOPE } = process.env;
+const { RESPONSE_TYPE } = process.env;
+const { CLIENT_ID } = process.env;
+const { CDN_IMAGE } = process.env;
 
 import { api } from "../services/api";
 import { COLLECTION_USERS } from '../configs/database';
