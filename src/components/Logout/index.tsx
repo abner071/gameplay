@@ -21,8 +21,7 @@ export function Logout({singOut, closeModal, ...rest}: Props){
             <View style={styles.overlay}>
                 <View style={styles.container}>
                     <Text style={styles.title}>
-                        Deseja sair do 
-                        <Text style={styles.game}> Game</Text>
+                        Deseja sair do Game
                         <Text style={styles.play}>Play</Text>
                         ?
                     </Text>

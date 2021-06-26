@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-import { color } from 'react-native-reanimated';
 import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
@@ -18,11 +17,10 @@ export const styles = StyleSheet.create({
     },
     title: {
         fontSize: 24,
-        fontFamily: theme.fonts.title500,
-        marginBottom: 29,
-    },
-    game: {
         fontFamily: theme.fonts.title700,
+        color: theme.colors.heading,
+        marginTop: 29,
+        marginBottom: 29,
     },
     play: {
         fontFamily: theme.fonts.title700,
@@ -38,7 +36,7 @@ export const styles = StyleSheet.create({
         textAlignVertical: 'center',
         fontSize: 15,
         fontFamily: theme.fonts.text500,
-        borderWidth: 2,
+        borderWidth: 1,
         borderColor: theme.colors.secondary30,
         borderRadius: 8,
         marginRight: 8,
